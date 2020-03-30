@@ -52,3 +52,9 @@ jerald.giveRaise(25);
 
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = "<h1>" + greeterTeacher(jerald) +"</h1>";
+
+var message:string = "Thomas is very obstinate" ;
+console.log(message);
+
+const ttdiv: HTMLElement = document.getElementById('tt');
+ttdiv.innerHTML = "<h1>" + greeter(jane) +"</h1>";
